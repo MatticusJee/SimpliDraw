@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		444CF4722204CAD900542EFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444CF4712204CAD900542EFB /* AppDelegate.swift */; };
+		444CF4742204CAD900542EFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444CF4732204CAD900542EFB /* ViewController.swift */; };
+		444CF4772204CAD900542EFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444CF4752204CAD900542EFB /* Main.storyboard */; };
+		444CF47A2204CAD900542EFB /* SimpliDraw.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 444CF4782204CAD900542EFB /* SimpliDraw.xcdatamodeld */; };
+		444CF47C2204CADC00542EFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 444CF47B2204CADC00542EFB /* Assets.xcassets */; };
+		444CF47F2204CADC00542EFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444CF47D2204CADC00542EFB /* LaunchScreen.storyboard */; };
+		444CF48A2204CADC00542EFB /* SimpliDrawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444CF4892204CADC00542EFB /* SimpliDrawTests.swift */; };
+		444CF4952204CADC00542EFB /* SimpliDrawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444CF4942204CADC00542EFB /* SimpliDrawUITests.swift */; };
+		444CF4A52204EC2E00542EFB /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444CF4A42204EC2E00542EFB /* SettingsVC.swift */; };
+		444CF4A72204ED6F00542EFB /* TransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444CF4A62204ED6F00542EFB /* TransitionDelegate.swift */; };
+		444CF4A92204F0EE00542EFB /* PresenterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444CF4A82204F0EE00542EFB /* PresenterController.swift */; };
+		444CF4AB2204F10900542EFB /* DismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444CF4AA2204F10900542EFB /* DismissAnimator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		444CF4862204CADC00542EFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 444CF4662204CAD900542EFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 444CF46D2204CAD900542EFB;
+			remoteInfo = SimpliDraw;
+		};
+		444CF4912204CADC00542EFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 444CF4662204CAD900542EFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 444CF46D2204CAD900542EFB;
+			remoteInfo = SimpliDraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		444CF46E2204CAD900542EFB /* SimpliDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpliDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		444CF4712204CAD900542EFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		444CF4732204CAD900542EFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		444CF4762204CAD900542EFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		444CF4792204CAD900542EFB /* SimpliDraw.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpliDraw.xcdatamodel; sourceTree = "<group>"; };
+		444CF47B2204CADC00542EFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		444CF47E2204CADC00542EFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		444CF4802204CADC00542EFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		444CF4852204CADC00542EFB /* SimpliDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpliDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		444CF4892204CADC00542EFB /* SimpliDrawTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpliDrawTests.swift; sourceTree = "<group>"; };
+		444CF48B2204CADC00542EFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		444CF4902204CADC00542EFB /* SimpliDrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpliDrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		444CF4942204CADC00542EFB /* SimpliDrawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpliDrawUITests.swift; sourceTree = "<group>"; };
+		444CF4962204CADC00542EFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		444CF4A42204EC2E00542EFB /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		444CF4A62204ED6F00542EFB /* TransitionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionDelegate.swift; sourceTree = "<group>"; };
+		444CF4A82204F0EE00542EFB /* PresenterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterController.swift; sourceTree = "<group>"; };
+		444CF4AA2204F10900542EFB /* DismissAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissAnimator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		444CF46B2204CAD900542EFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		444CF4822204CADC00542EFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		444CF48D2204CADC00542EFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		444CF4652204CAD900542EFB = {
+			isa = PBXGroup;
+			children = (
+				444CF4702204CAD900542EFB /* SimpliDraw */,
+				444CF4882204CADC00542EFB /* SimpliDrawTests */,
+				444CF4932204CADC00542EFB /* SimpliDrawUITests */,
+				444CF46F2204CAD900542EFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		444CF46F2204CAD900542EFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				444CF46E2204CAD900542EFB /* SimpliDraw.app */,
+				444CF4852204CADC00542EFB /* SimpliDrawTests.xctest */,
+				444CF4902204CADC00542EFB /* SimpliDrawUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		444CF4702204CAD900542EFB /* SimpliDraw */ = {
+			isa = PBXGroup;
+			children = (
+				444CF4712204CAD900542EFB /* AppDelegate.swift */,
+				444CF4732204CAD900542EFB /* ViewController.swift */,
+				444CF4A42204EC2E00542EFB /* SettingsVC.swift */,
+				444CF4752204CAD900542EFB /* Main.storyboard */,
+				444CF47B2204CADC00542EFB /* Assets.xcassets */,
+				444CF47D2204CADC00542EFB /* LaunchScreen.storyboard */,
+				444CF4802204CADC00542EFB /* Info.plist */,
+				444CF4782204CAD900542EFB /* SimpliDraw.xcdatamodeld */,
+				444CF4A62204ED6F00542EFB /* TransitionDelegate.swift */,
+				444CF4A82204F0EE00542EFB /* PresenterController.swift */,
+				444CF4AA2204F10900542EFB /* DismissAnimator.swift */,
+			);
+			path = SimpliDraw;
+			sourceTree = "<group>";
+		};
+		444CF4882204CADC00542EFB /* SimpliDrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				444CF4892204CADC00542EFB /* SimpliDrawTests.swift */,
+				444CF48B2204CADC00542EFB /* Info.plist */,
+			);
+			path = SimpliDrawTests;
+			sourceTree = "<group>";
+		};
+		444CF4932204CADC00542EFB /* SimpliDrawUITests */ = {
+			isa = PBXGroup;
+			children = (
+				444CF4942204CADC00542EFB /* SimpliDrawUITests.swift */,
+				444CF4962204CADC00542EFB /* Info.plist */,
+			);
+			path = SimpliDrawUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		444CF46D2204CAD900542EFB /* SimpliDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 444CF4992204CADC00542EFB /* Build configuration list for PBXNativeTarget "SimpliDraw" */;
+			buildPhases = (
+				444CF46A2204CAD900542EFB /* Sources */,
+				444CF46B2204CAD900542EFB /* Frameworks */,
+				444CF46C2204CAD900542EFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpliDraw;
+			productName = SimpliDraw;
+			productReference = 444CF46E2204CAD900542EFB /* SimpliDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		444CF4842204CADC00542EFB /* SimpliDrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 444CF49C2204CADC00542EFB /* Build configuration list for PBXNativeTarget "SimpliDrawTests" */;
+			buildPhases = (
+				444CF4812204CADC00542EFB /* Sources */,
+				444CF4822204CADC00542EFB /* Frameworks */,
+				444CF4832204CADC00542EFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				444CF4872204CADC00542EFB /* PBXTargetDependency */,
+			);
+			name = SimpliDrawTests;
+			productName = SimpliDrawTests;
+			productReference = 444CF4852204CADC00542EFB /* SimpliDrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		444CF48F2204CADC00542EFB /* SimpliDrawUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 444CF49F2204CADC00542EFB /* Build configuration list for PBXNativeTarget "SimpliDrawUITests" */;
+			buildPhases = (
+				444CF48C2204CADC00542EFB /* Sources */,
+				444CF48D2204CADC00542EFB /* Frameworks */,
+				444CF48E2204CADC00542EFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				444CF4922204CADC00542EFB /* PBXTargetDependency */,
+			);
+			name = SimpliDrawUITests;
+			productName = SimpliDrawUITests;
+			productReference = 444CF4902204CADC00542EFB /* SimpliDrawUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		444CF4662204CAD900542EFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Matt Garofola";
+				TargetAttributes = {
+					444CF46D2204CAD900542EFB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					444CF4842204CADC00542EFB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 444CF46D2204CAD900542EFB;
+					};
+					444CF48F2204CADC00542EFB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 444CF46D2204CAD900542EFB;
+					};
+				};
+			};
+			buildConfigurationList = 444CF4692204CAD900542EFB /* Build configuration list for PBXProject "SimpliDraw" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 444CF4652204CAD900542EFB;
+			productRefGroup = 444CF46F2204CAD900542EFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				444CF46D2204CAD900542EFB /* SimpliDraw */,
+				444CF4842204CADC00542EFB /* SimpliDrawTests */,
+				444CF48F2204CADC00542EFB /* SimpliDrawUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		444CF46C2204CAD900542EFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				444CF47F2204CADC00542EFB /* LaunchScreen.storyboard in Resources */,
+				444CF47C2204CADC00542EFB /* Assets.xcassets in Resources */,
+				444CF4772204CAD900542EFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		444CF4832204CADC00542EFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		444CF48E2204CADC00542EFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		444CF46A2204CAD900542EFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				444CF47A2204CAD900542EFB /* SimpliDraw.xcdatamodeld in Sources */,
+				444CF4AB2204F10900542EFB /* DismissAnimator.swift in Sources */,
+				444CF4742204CAD900542EFB /* ViewController.swift in Sources */,
+				444CF4A72204ED6F00542EFB /* TransitionDelegate.swift in Sources */,
+				444CF4722204CAD900542EFB /* AppDelegate.swift in Sources */,
+				444CF4A92204F0EE00542EFB /* PresenterController.swift in Sources */,
+				444CF4A52204EC2E00542EFB /* SettingsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		444CF4812204CADC00542EFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				444CF48A2204CADC00542EFB /* SimpliDrawTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		444CF48C2204CADC00542EFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				444CF4952204CADC00542EFB /* SimpliDrawUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		444CF4872204CADC00542EFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 444CF46D2204CAD900542EFB /* SimpliDraw */;
+			targetProxy = 444CF4862204CADC00542EFB /* PBXContainerItemProxy */;
+		};
+		444CF4922204CADC00542EFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 444CF46D2204CAD900542EFB /* SimpliDraw */;
+			targetProxy = 444CF4912204CADC00542EFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		444CF4752204CAD900542EFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				444CF4762204CAD900542EFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		444CF47D2204CADC00542EFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				444CF47E2204CADC00542EFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		444CF4972204CADC00542EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		444CF4982204CADC00542EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		444CF49A2204CADC00542EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6LR6Y6C4W;
+				INFOPLIST_FILE = SimpliDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iRobot.SimpliDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		444CF49B2204CADC00542EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6LR6Y6C4W;
+				INFOPLIST_FILE = SimpliDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iRobot.SimpliDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		444CF49D2204CADC00542EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6LR6Y6C4W;
+				INFOPLIST_FILE = SimpliDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iRobot.SimpliDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpliDraw.app/SimpliDraw";
+			};
+			name = Debug;
+		};
+		444CF49E2204CADC00542EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6LR6Y6C4W;
+				INFOPLIST_FILE = SimpliDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iRobot.SimpliDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpliDraw.app/SimpliDraw";
+			};
+			name = Release;
+		};
+		444CF4A02204CADC00542EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6LR6Y6C4W;
+				INFOPLIST_FILE = SimpliDrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iRobot.SimpliDrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpliDraw;
+			};
+			name = Debug;
+		};
+		444CF4A12204CADC00542EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6LR6Y6C4W;
+				INFOPLIST_FILE = SimpliDrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iRobot.SimpliDrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpliDraw;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		444CF4692204CAD900542EFB /* Build configuration list for PBXProject "SimpliDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444CF4972204CADC00542EFB /* Debug */,
+				444CF4982204CADC00542EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		444CF4992204CADC00542EFB /* Build configuration list for PBXNativeTarget "SimpliDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444CF49A2204CADC00542EFB /* Debug */,
+				444CF49B2204CADC00542EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		444CF49C2204CADC00542EFB /* Build configuration list for PBXNativeTarget "SimpliDrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444CF49D2204CADC00542EFB /* Debug */,
+				444CF49E2204CADC00542EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		444CF49F2204CADC00542EFB /* Build configuration list for PBXNativeTarget "SimpliDrawUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444CF4A02204CADC00542EFB /* Debug */,
+				444CF4A12204CADC00542EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		444CF4782204CAD900542EFB /* SimpliDraw.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				444CF4792204CAD900542EFB /* SimpliDraw.xcdatamodel */,
+			);
+			currentVersion = 444CF4792204CAD900542EFB /* SimpliDraw.xcdatamodel */;
+			path = SimpliDraw.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 444CF4662204CAD900542EFB /* Project object */;
+}
